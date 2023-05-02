@@ -354,7 +354,7 @@ export default function HeaderBasic() {
         <Headerbottom>
           <Container className="container">
             <LogoContainer>
-              <Link href="">
+              <Link href="/">
                 <Image src="/project-landscape-logo-light.svg" alt="calgary landscaping logo" height={70} width={100} />
               </Link>
             </LogoContainer>
@@ -464,30 +464,6 @@ export default function HeaderBasic() {
                           lawn care (HIDDEN)
                         </StyledLink>
                       </li>
-
-                      {/* {data.wpMenu.menuItems.nodes.map(mainItem => {
-                        return (
-                          <>
-                            {mainItem.childItems.nodes.map(childItem1 => {
-                              return (
-                                <>
-                                  {childItem1.childItems.nodes.map(
-                                    childItem2 => {
-                                      return (
-                                        <li key={childItem2.id}>
-                                          <StyledLink to={childItem2.url}>
-                                            {childItem2.label}
-                                          </StyledLink>
-                                        </li>
-                                      )
-                                    }
-                                  )}
-                                </>
-                              )
-                            })}
-                          </>
-                        )
-                      })} */}
                     </ul>
 
                     <ul>

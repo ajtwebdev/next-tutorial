@@ -88,7 +88,8 @@ export default function MainServicesLinks() {
         </Container>
         <Grid>
           <List>
-            <ItemLink href="/residential-services/hardscaping">
+            <Link legacyBehavior href="/residential-services/hardscaping">
+              <a>
               <Image
               height={100} width={100}
                 src="/hardscaping-calgary.jpg"
@@ -98,13 +99,15 @@ export default function MainServicesLinks() {
                 <h3 className="subheader">hardscaping</h3>
                 <ButtonUnderline
                   className="service-button"
-                  to="/residential-services-hardscaping"
+                  href="/residential-services-hardscaping"
                 >
                   learn more &#8594;
                 </ButtonUnderline>
               </div>
-            </ItemLink>
-            <ItemLink href="/residential-services/softscaping">
+              </a>
+            </Link>
+            <Link legacyBehavior href="/residential-services/softscaping">
+              <a>
               <Image
               height={100} width={100}
                 src="/softscaping-calgary.jpg"
@@ -114,13 +117,15 @@ export default function MainServicesLinks() {
                 <h3 className="subheader">softscaping</h3>
                 <ButtonUnderline
                   className="service-button"
-                  to="/residential-services/softscaping"
+                  href="/residential-services/softscaping"
                 >
                   learn more &#8594;
                 </ButtonUnderline>
               </div>
-            </ItemLink>
-            <ItemLink href="/residential-services/outdoor-living">
+              </a>
+            </Link>
+            <Link legacyBehavior href="/residential-services/outdoor-living">
+              <a >
               <Image
               height={100} width={100}
                 src="/outdoor-living-calgary.jpg"
@@ -130,12 +135,13 @@ export default function MainServicesLinks() {
                 <h3 className="subheader">outdoor services</h3>
                 <ButtonUnderline
                   className="service-button"
-                  to="/residential-services/outdoor-living"
+                  href="/residential-services/outdoor-living"
                 >
                   learn more &#8594;
                 </ButtonUnderline>
               </div>
-            </ItemLink>
+              </a>
+            </Link>
           </List>
           <Bg />
         </Grid>

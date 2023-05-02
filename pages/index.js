@@ -29,7 +29,7 @@ export default function Home() {
     <Layout>
       <HeroBasic />
       <Badges />
-      {/* <MainServicesLinks /> */}
+      <MainServicesLinks />
       <AllServicesBanner />
       <Section>
         <Container>
